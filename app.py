@@ -19,4 +19,4 @@ def p3():
     return render_template('p3.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
