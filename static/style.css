@@ -1,39 +1,114 @@
 body {
     background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
+form {
+    display: inline-block;
+}
+
+shop {
+    display: block;
+    font-size: 1em;
+    color: #c11;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+moeda {
+    display: block;
+    color: #1c1;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 5px 15px;
+}
+
+input[type=text], input[type=password] {
+    width: 256px;
+}
+
+fieldset {
+    width: 256px;
+    padding: 50px;
+    background-color: lightgray;
+    border: 2px groove;
+}
+
+table, td {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    border: 30px solid lightgray;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: white;
+    text-align: center;
+    padding: 30px 10px;
+    width: 256px;
+    vertical-align: bottom;
+}
+
+.navbar user {
+    float: right;
+    padding: 12px;
+    color: #ff8;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #000;
+}
 
 .navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
 }
 
-/* Navbar links */
 .navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-/* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: #000;
+    background-color: #000;
 }
 
-/* Current/active navbar link */
 .active {
-  background-color: #4CAF50;
+    background-color: #5b5;
 }
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
+    .navbar a {
+        float: none;
+    }
+}
+
+.pagbar {
+    padding: 12px;
+    background-color: #555;
+}
+
+.pagbar a {
+    padding: 12px;
+    color: #39d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.pagbar current {
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.pagbar a:hover {
+    background-color: #000;
 }
