@@ -1,6 +1,6 @@
 body {
     background-color: #eee;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ;
     text-align: center;
 }
 
@@ -53,63 +53,49 @@ td {
     vertical-align: bottom;
 }
 
-.navbar user {
-    float: right;
-    padding: 12px;
-    color: #ff8;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: #000;
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  text-align: left;
+
 }
 
-.navbar {
-    top:10px;
-    width: 100%;
-    background-color: #555;
-    overflow:auto;
+.sidenav a {
+  padding: 50px 15px 15px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
 }
 
-.navbar a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
+.sidenav a:hover {
+  background-color: #818783;
+  color: #f1f1f1;
 }
 
-.navbar a:hover {
-    background-color: #000;
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
 
-.active {
-    background-color: #5b5;
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-    }
+.h {
+    background-color:#10a547;
+    color:white;
+    padding : 20px;
 }
 
-.pagbar {
-    padding: 12px;
-    background-color: #555;
-}
-
-.pagbar a {
-    padding: 12px;
-    color: #39d;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.pagbar current {
-    padding: 12px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.pagbar a:hover {
-    background-color: #000;
+.w {
+    color:white;
 }
