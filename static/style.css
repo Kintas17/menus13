@@ -1,8 +1,9 @@
+
+/*-----------------------------CORPO--------------------*/
 body {
-    background-color: #eee;
-    font-family: ;
-    text-align: center;
+  font-family: "Lato", sans-serif;
 }
+
 
 form {
     display: inline-block;
@@ -53,36 +54,53 @@ td {
     vertical-align: bottom;
 }
 
+.h {
+    background-color:#10a547;
+    color:white;
+    padding : 20px;
+}
+
+.w {
+    color:white;
+}
+/*-----------menu--------------------------------------------------------*/
+
+body {
+  font-family: "Lato", sans-serif;
+}
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color:#7f7b7b;
   overflow-x: hidden;
-  text-align: left;
-
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .sidenav a {
-  padding: 50px 15px 15px 10px;
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   display: block;
+  transition: 0.3s;
 }
 
 .sidenav a:hover {
-  background-color: #818783;
   color: #f1f1f1;
 }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #818181;
 }
 
 @media screen and (max-height: 450px) {
