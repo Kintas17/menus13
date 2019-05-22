@@ -54,14 +54,7 @@ td {
     vertical-align: bottom;
 }
 
-.h {
-    background-color:#10a547;
-    color:white;
-    padding : 20px;
-}
 
-.w {
-    color:white;
 }
 /*-----------menu--------------------------------------------------------*/
 
@@ -91,7 +84,7 @@ body {
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 .sidenav .closebtn {
@@ -100,7 +93,7 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-  color: #818181;
+  color: white;
 }
 
 @media screen and (max-height: 450px) {
@@ -117,3 +110,126 @@ body {
 .w {
     color:white;
 }
+.footer {
+    background-color: #e3e3e3;
+    color: black;
+    display: flex;
+    text-align: left;
+}
+
+.icons {
+    padding: 35px 100px;
+}
+
+.phone i, .email i, .marker i {
+    background-color: black;
+    font-size: 15px;
+    padding: 12px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.phone p, .email p, .marker p {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.info {
+    padding: 35px 100px;
+}
+
+
+.info-title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.info-content {
+    background-color: #d2d2d2;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 400px;
+}
+
+.info div {
+    display: flex;
+    font-size: 30px;
+}
+
+.info div div {
+    padding: 0px 30px 0px 0px; /* 0 = cima \\ 30 = direita \\ 0 = baixo \\ 0 = esquerda */
+}
+
+.info div i {
+    background-color: #c4c4c4;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.copyright {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #e3e3e3;
+}
+
+
+
+/* padding dos <p> */
+.p-padding-1 {
+    padding: 100px;
+}
+
+.p-padding-2 {
+    padding: 60px 0px;
+}
+
+.p-padding-3 {
+    padding: 25px 0;
+}
+
+.p-padding-4 {
+    padding: 5px 0px;
+}
+
+.p-padding-5 {
+    padding: 0px 0px;
+    user-select: none;
+}
+/* padding dos <p> */
+
+
+
+/* scrollbar style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e7e7e7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* scrollbar style */
+
+/* cor da seleção */
+::selection {
+    background: #333;
+    color: white;
+
+}
+/* cor da seleção */
