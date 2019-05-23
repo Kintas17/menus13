@@ -69,7 +69,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:#7f7b7b;
+  background-color: #c4c4c4;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -93,7 +93,7 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-height: 450px) {
@@ -108,10 +108,10 @@ body {
 }
 
 .w {
-    color:white;
+    color:black;
 }
 .footer {
-    background-color: #e3e3e3;
+    background-color:  #d2d2d2;
     color: black;
     display: flex;
     text-align: left;
@@ -122,10 +122,10 @@ body {
 }
 
 .phone i, .email i, .marker i {
-    background-color: black;
+    background-color: #c4c4c4 ;
     font-size: 15px;
     padding: 12px;
-    color: #fff;
+    color: black;
     border-radius: 20px;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .info {
-    padding: 35px 100px;
+    padding: 35px 300px;
 }
 
 
@@ -168,7 +168,7 @@ body {
 .info div i {
     background-color: #c4c4c4;
     padding: 8px;
-    color: white;
+    color: black;
     border-radius: 10px;
 }
 
@@ -185,7 +185,7 @@ body {
 
 /* padding dos <p> */
 .p-padding-1 {
-    padding: 100px;
+    padding: 195px;
 }
 
 .p-padding-2 {
