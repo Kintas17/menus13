@@ -14,9 +14,13 @@ def login():
 def registo():
     return render_template('registo.html')
 
-@app.route('/p3')
-def p3():
-    return render_template('p3.html')
+@app.route('/galo')
+def galo():
+    return render_template('galo.html')
+
+@app.route('/space')
+def space():
+    return render_template('space.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

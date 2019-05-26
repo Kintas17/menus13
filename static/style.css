@@ -139,6 +139,7 @@ body {
 
 .info {
     padding: 35px 300px;
+    text-align; right;
 }
 
 
@@ -170,6 +171,7 @@ body {
     padding: 8px;
     color: black;
     border-radius: 10px;
+    text-align: right;
 }
 
 .copyright {

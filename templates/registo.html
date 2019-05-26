@@ -4,6 +4,7 @@
 {% endblock %}
 
 {% block conteudo %}
+<center>
 <h1>Criar nova Conta</h1>
 <form method="post">
     <fieldset>
@@ -23,5 +24,6 @@
         <input type="submit" value="Submeter">
     </fieldset>
 </form>
+</center>
 {% if erro %}<h4>{{ erro }}</h4>{% endif %}
 {% endblock %}
