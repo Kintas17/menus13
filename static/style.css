@@ -36,7 +36,17 @@ fieldset {
     padding: 50px;
     background-color: lightgray;
     border: 2px groove;
+    border-radius: 40px;
 }
+input[type="text"], input[type="password"] {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 150px;
+    text: uppercase;
+    height: 10px;
+    padding: 10px 15px;
+    transition: .4s;
 
 table, td {
     margin-left: auto;
